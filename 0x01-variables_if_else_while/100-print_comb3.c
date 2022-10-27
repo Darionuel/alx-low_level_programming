@@ -19,7 +19,7 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
-			i++;
+			j++;
 
 			if (i <= '9' || j <= '9')
 			{
@@ -27,6 +27,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
