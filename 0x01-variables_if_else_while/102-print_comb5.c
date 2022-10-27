@@ -9,7 +9,7 @@
  * All numbers are printed with two digits. e.g 1 is printed as 01
  * The combination of numbers are separated by comma, followed by a space
  * The combinations of numbers is printed in ascending order
- * 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
+ * 00 01 and 01 00 are regarded as the same combination of the numbers 0 and 1
  *
  * printf and puts function can also be used
  *
@@ -20,7 +20,7 @@ int main(void)
 	int i, j, k, l;
 
 	for (i = '0'; i <= '9'; i++)
-	
+
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
@@ -35,7 +35,7 @@ int main(void)
 						putchar(' ');
 						putchar(k);
 						putchar(l);
-					
+
 					if (i + j + k + l == 37 && i == '9')
 					{
 					break;
