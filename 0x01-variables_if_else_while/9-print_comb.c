@@ -4,6 +4,8 @@
  * main - prints all possible combinations of single-digit numbers,
  * followed by a new line
  *
+ * Numbers are printed in ascending order
+ *
  * printf and puts function can also be used
  *
  * Return: Always 0 (Success)
