@@ -36,7 +36,7 @@ int main(void)
 						putchar(k);
 						putchar(l);
 
-					if (i + j + k + l == 37 && i == '9')
+					if (i + j + k + l == 35 && i == '9')
 					{
 					break;
 					}
