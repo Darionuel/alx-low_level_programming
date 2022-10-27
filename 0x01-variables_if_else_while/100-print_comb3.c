@@ -1,8 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of single-digit numbers,
+ * main - prints all possible combinations of two digits,
  * followed by a new line
+ *
+ * The two digits are different
+ * e.g 01 and 10 are considered the same combination of the two digits 0 and 1
+ * Print only the smallest combination of two digits
+ * Numbers are printed in ascending order, with two digits
  *
  * printf and puts function can also be used
  *
