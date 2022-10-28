@@ -7,20 +7,22 @@
  */
 void jack_bauer(void)
 {
-	int hrs = 24;
+	int hrs = 0;
 
 	while (hrs < 24)
 	{
-		int min = 60;
+		int min = 0;
 
 		while (min < 60)
 		{
-			_putchar((i / 10) + '0');
-			_putchar((i % 10) + '0');
+			_putchar((hrs / 10) + '0');
+			_putchar((hrs % 10) + '0');
 			_putchar(':');
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
 			_putchar(('\n');
+			min++;
 		}
+	hrs++;
 	}
 }
