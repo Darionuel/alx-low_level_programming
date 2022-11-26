@@ -10,10 +10,15 @@ void print_rev(char *s)
 	/* to find the length, l of the string */
 	int l, len;
 
-	for (l = 0; s[l] != '\0'; l++)
+	l = 0;
+	while (s[l] != '\0')
+	{
+		l++;
+	}
+	/* for (l = 0; s[l] != '\0'; l++) */
 
 	/* to print the string in reverse */
-	len = l;
+	len = l - 1;
 
 	for (; len >= 0 ; len--)
 	{
